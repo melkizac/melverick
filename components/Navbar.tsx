@@ -24,13 +24,6 @@ const Navbar: React.FC = () => {
             Melverick
           </span>
         </div>
-
-        {/* CTA Button */}
-        <div className="block">
-           <a href="#contact" className="px-6 py-3 rounded-md text-primary bg-gradient-to-br from-[#e2e8ec] to-[#ffffff] shadow-soft hover:-translate-y-[2px] hover:text-white hover:bg-primary hover:to-primary hover:from-primary transition-all duration-300 text-xs font-bold uppercase tracking-widest">
-             Hire Me
-           </a>
-        </div>
       </div>
     </header>
   );

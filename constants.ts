@@ -12,6 +12,9 @@ import { NavItem, Feature, PortfolioItem, ExperienceItem } from './types';
 // or a hosted URL of your choice to use your personal photo.
 export const PROFILE_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/melverick%20studio.jpg?q=80&w=1000&auto=format&fit=crop"; 
 
+export const LINKEDIN_URL = "https://www.linkedin.com/in/melverick/";
+export const FACEBOOK_URL = "https://www.facebook.com/melverick.ng.1";
+
 export const NAV_ITEMS: NavItem[] = [
   { id: 'home', label: 'Home', href: '#home' },
   { id: 'features', label: 'Features', href: '#features' },
