@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import { FEATURES } from '../constants';
+import { FEATURES, JOURNEY_IMAGE_URL } from '../constants';
 
 const Features: React.FC = () => {
   return (
@@ -9,6 +9,15 @@ const Features: React.FC = () => {
         <div className="mb-16">
           <span className="text-primary text-xs font-bold uppercase tracking-widest">Features</span>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mt-4 font-heading">What I Do</h2>
+        </div>
+
+        {/* Journey Image */}
+        <div className="mb-16 w-full rounded-xl overflow-hidden shadow-soft bg-white">
+            <img 
+                src={JOURNEY_IMAGE_URL} 
+                alt="Melverick Journey Roadmap" 
+                className="w-full h-auto object-cover hover:scale-[1.01] transition-transform duration-500"
+            />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

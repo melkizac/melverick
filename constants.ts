@@ -11,6 +11,7 @@ import { NavItem, Feature, PortfolioItem, ExperienceItem } from './types';
 // NOTE: Please replace this URL with the actual path to your uploaded photo (e.g., ./assets/my-photo.jpg) 
 // or a hosted URL of your choice to use your personal photo.
 export const PROFILE_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/melverick%20studio.jpg?q=80&w=1000&auto=format&fit=crop"; 
+export const JOURNEY_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/Melverick%20Journey.jpg";
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/melverick/";
 export const FACEBOOK_URL = "https://www.facebook.com/melverick.ng.1";
@@ -36,7 +37,7 @@ export const FEATURES: Feature[] = [
   {
     id: 2,
     title: "AI Adoption",
-    description: "Ihelp SMEs move from manual operations to self-evolving systems, enabling processes (finance, inventory) to run autonomously via natural language.",
+    description: "I help SMEs move from manual operations to self-evolving systems, enabling processes (finance, inventory) to run autonomously via natural language.",
     icon: Code
   },
   {
