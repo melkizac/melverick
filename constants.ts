@@ -8,9 +8,9 @@ import {
 } from 'lucide-react';
 import { NavItem, Feature, PortfolioItem, ExperienceItem } from './types';
 
-// NOTE: In a real deployment, replace this URL with the actual path to your uploaded photo.
-// For this demo, we use a placeholder that matches the aspect ratio of the provided photo.
-export const PROFILE_IMAGE_URL = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1000&auto=format&fit=crop"; 
+// NOTE: Please replace this URL with the actual path to your uploaded photo (e.g., ./assets/my-photo.jpg) 
+// or a hosted URL of your choice to use your personal photo.
+export const PROFILE_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/melverick%20studio.jpg?q=80&w=1000&auto=format&fit=crop"; 
 
 export const NAV_ITEMS: NavItem[] = [
   { id: 'home', label: 'Home', href: '#home' },
@@ -67,42 +67,42 @@ export const PORTFOLIO_ITEMS: PortfolioItem[] = [
     category: "Development",
     title: "The services provide for design",
     likes: 600,
-    imageUrl: "https://picsum.photos/600/400?random=1"
+    imageUrl: "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 2,
     category: "Application",
     title: "Mobile app landing design & app maintain",
     likes: 750,
-    imageUrl: "https://picsum.photos/600/400?random=2"
+    imageUrl: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 3,
     category: "Photoshop",
     title: "Logo design creativity & Application",
     likes: 630,
-    imageUrl: "https://picsum.photos/600/400?random=3"
+    imageUrl: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 4,
     category: "Figma",
     title: "Mobile app landing design & Services",
     likes: 350,
-    imageUrl: "https://picsum.photos/600/400?random=4"
+    imageUrl: "https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 5,
     category: "Web Design",
     title: "Design for technology & services",
     likes: 220,
-    imageUrl: "https://picsum.photos/600/400?random=5"
+    imageUrl: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop"
   },
   {
     id: 6,
     category: "Web Design",
     title: "App for technology & services",
     likes: 560,
-    imageUrl: "https://picsum.photos/600/400?random=6"
+    imageUrl: "https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=800&auto=format&fit=crop"
   }
 ];
 
