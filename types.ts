@@ -30,6 +30,13 @@ export interface ExperienceItem {
   score?: string; // e.g., "4.30/5"
 }
 
+export interface CareerItem {
+  id: number;
+  year: string;
+  company: string;
+  description?: string;
+}
+
 export enum ResumeTab {
   EDUCATION = 'Education',
   SKILLS = 'Professional Skills',

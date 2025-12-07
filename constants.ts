@@ -6,7 +6,7 @@ import {
   Wifi, 
   Layers 
 } from 'lucide-react';
-import { NavItem, Feature, PortfolioItem, ExperienceItem } from './types';
+import { NavItem, Feature, PortfolioItem, ExperienceItem, CareerItem } from './types';
 
 // NOTE: Please replace this URL with the actual path to your uploaded photo (e.g., ./assets/my-photo.jpg) 
 // or a hosted URL of your choice to use your personal photo.
@@ -151,4 +151,22 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
     description: "Collaborated with senior designers to create user-friendly interfaces for mobile apps.",
     score: "Hybrid"
   }
+];
+
+export const CAREER_PHASE_A: CareerItem[] = [
+  { id: 1, year: '1997-1999', company: 'Asahi Glass Co.', description: '' },
+  { id: 2, year: '1999-2000', company: 'Oasis Consulting', description: '' },
+  { id: 3, year: '2000-2002', company: 'Exxonmobil', description: '' },
+  { id: 4, year: '2002-2008', company: 'ISS Consulting', description: '' },
+  { id: 5, year: '2009-2010', company: 'Johnson & Johnson', description: '' }
+];
+
+export const CAREER_PHASE_B: CareerItem[] = [
+  { id: 1, year: '2010-2023', company: 'Inner City Offices', description: 'Coworking' },
+  { id: 2, year: '2011-Present', company: 'Voplus Consulting', description: 'CorpSec' },
+  { id: 3, year: '2011-2014', company: 'AdHocSpace', description: 'Event Space Marketplace' },
+  { id: 4, year: '2014-2015', company: 'BookQuickly', description: 'Beauty Services Marketplace' },
+  { id: 5, year: '2015-2020', company: 'PlusMargin', description: 'eCommerce Conversion Rate Optimisation' },
+  { id: 6, year: '2022-2025', company: 'Mezza Tech', description: '' },
+  { id: 7, year: '2025-Current', company: 'Nexius Labs', description: '' }
 ];
