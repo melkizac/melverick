@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail } from 'lucide-react';
+import { Phone, Mail, UserPlus } from 'lucide-react';
 import { LINKEDIN_URL, FACEBOOK_URL } from '../constants';
 
 const Contact: React.FC = () => {
@@ -7,6 +7,30 @@ const Contact: React.FC = () => {
         { label: 'FB', href: FACEBOOK_URL },
         { label: 'IN', href: LINKEDIN_URL }
     ];
+
+    const handleSaveContact = () => {
+        // Construct vCard data
+        const vCardData = [
+            'BEGIN:VCARD',
+            'VERSION:3.0',
+            'FN:Melverick Ng',
+            'N:Ng;Melverick;;;',
+            'TITLE:Director & Co-founder',
+            'TEL;TYPE=CELL:+6597220890',
+            'EMAIL;TYPE=WORK:mel@melverick.com',
+            `URL:${LINKEDIN_URL}`,
+            'END:VCARD'
+        ].join('\n');
+
+        const blob = new Blob([vCardData], { type: 'text/vcard;charset=utf-8' });
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'MelverickNg.vcf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    };
 
   return (
     <section id="contact" className="py-24 px-6 border-b border-gray-300">
@@ -35,6 +59,14 @@ const Contact: React.FC = () => {
                         <span>mel@melverick.com</span>
                     </div>
                 </div>
+
+                <button 
+                    onClick={handleSaveContact}
+                    className="w-full mb-8 py-4 px-6 rounded-lg bg-gradient-to-r from-gray-100 to-gray-200 shadow-soft text-gray-700 font-bold uppercase tracking-wider text-sm hover:text-primary hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 border border-gray-200"
+                >
+                    <UserPlus size={18} />
+                    Save Contact
+                </button>
 
                 <div>
                     <span className="uppercase text-xs text-gray-500 tracking-widest font-bold mb-4 block">Connect With Me</span>
