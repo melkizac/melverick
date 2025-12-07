@@ -1,11 +1,24 @@
 import React from 'react';
-import { Facebook, Twitter, Linkedin, Instagram, Code, Database, Figma } from 'lucide-react';
-import { PROFILE_IMAGE_URL, LINKEDIN_URL, FACEBOOK_URL } from '../constants';
+import { Facebook, Linkedin, Instagram, Code, Database, Figma } from 'lucide-react';
+import { PROFILE_IMAGE_URL, LINKEDIN_URL, FACEBOOK_URL, TWITTER_URL } from '../constants';
+
+const XIcon = ({ size = 24, className }: { size?: number | string, className?: string }) => (
+  <svg 
+    width={size} 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="currentColor" 
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+  </svg>
+);
 
 const Hero: React.FC = () => {
   const socialLinks = [
     { icon: Facebook, href: FACEBOOK_URL },
-    { icon: Twitter, href: '#' },
+    { icon: XIcon, href: TWITTER_URL },
     { icon: Linkedin, href: LINKEDIN_URL },
   ];
 
@@ -23,7 +36,7 @@ const Hero: React.FC = () => {
                 <span className="text-3xl md:text-5xl">an AI Practitioner.</span>
               </h1>
               <p className="text-gray-500 leading-relaxed max-w-xl text-lg">
-                I am building an adaptive, Agentic AI systems for SMEs (finance, ERP, CRM), allowing software to think and act autonomously based on natural language intent. This leads to an AI-native business OS.
+                I am building an adaptive, Agentic AI systems for SMEs (ERP, CRM, Finance), allowing software to think and act autonomously based on natural language intent. This leads to an AI-native business OS.
               </p>
             </div>
 

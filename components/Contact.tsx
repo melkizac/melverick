@@ -1,11 +1,25 @@
 import React from 'react';
-import { Phone, Mail, UserPlus, CalendarClock } from 'lucide-react';
-import { LINKEDIN_URL, FACEBOOK_URL, BOOKING_URL } from '../constants';
+import { Phone, Mail, UserPlus, CalendarClock, Facebook, Linkedin } from 'lucide-react';
+import { LINKEDIN_URL, FACEBOOK_URL, TWITTER_URL, BOOKING_URL } from '../constants';
+
+const XIcon = ({ size = 24, className }: { size?: number | string, className?: string }) => (
+  <svg 
+    width={size} 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="currentColor" 
+    xmlns="http://www.w3.org/2000/svg"
+    className={className}
+  >
+    <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z" />
+  </svg>
+);
 
 const Contact: React.FC = () => {
     const socialLinks = [
-        { label: 'FB', href: FACEBOOK_URL },
-        { label: 'IN', href: LINKEDIN_URL }
+        { icon: Facebook, href: FACEBOOK_URL },
+        { icon: XIcon, href: TWITTER_URL },
+        { icon: Linkedin, href: LINKEDIN_URL },
     ];
 
     const handleSaveContact = () => {
@@ -83,15 +97,15 @@ const Contact: React.FC = () => {
                 <div>
                     <span className="uppercase text-xs text-gray-500 tracking-widest font-bold mb-4 block">Connect With Me</span>
                      <div className="flex gap-4">
-                        {socialLinks.map((social, idx) => (
+                        {socialLinks.map(({ icon: Icon, href }, idx) => (
                              <a 
                                 key={idx} 
-                                href={social.href}
-                                target={social.href.startsWith('http') ? "_blank" : "_self"}
+                                href={href}
+                                target={href.startsWith('http') ? "_blank" : "_self"}
                                 rel="noreferrer"
-                                className="w-12 h-12 rounded-md flex items-center justify-center text-gray-600 bg-gradient-to-br from-[#e2e8ec] to-[#ffffff] shadow-soft hover:-translate-y-1 hover:bg-primary hover:text-white hover:from-primary hover:to-primary transition-all duration-300 cursor-pointer text-xs font-bold block leading-[3rem] text-center"
+                                className="w-14 h-14 rounded-md flex items-center justify-center text-gray-600 bg-gradient-to-br from-[#e2e8ec] to-[#ffffff] shadow-soft hover:-translate-y-1 hover:bg-primary hover:text-white hover:from-primary hover:to-primary transition-all duration-300"
                              >
-                                {social.label}
+                                <Icon size={20} />
                             </a>
                         ))}
                      </div>

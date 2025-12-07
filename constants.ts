@@ -15,6 +15,7 @@ export const JOURNEY_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/stora
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/melverick/";
 export const FACEBOOK_URL = "https://www.facebook.com/melverick.ng.1";
+export const TWITTER_URL = "https://x.com/melkizach";
 export const BOOKING_URL = "https://outlook.office.com/bookwithme/user/1a3b3c1b65044d24b6cddcc6b42c8ecb@nexiuslabs.com/meetingtype/rQlRqMpqtECRRRNfXW-T9A2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile";
 
 export const NAV_ITEMS: NavItem[] = [
@@ -31,19 +32,19 @@ export const FEATURES: Feature[] = [
   {
     id: 1,
     title: "AI Strategy",
-    description: "I build an AI-native business OS by designing adaptive Agentic systems for finance, ERP, and CRM that learn, evolve, and execute on intent.",
+    description: "I offer structured AI strategy (3 phases) for businesses to rapidly adopt and implement AI across their value chain, transforming operations into an adaptive, intelligence-driven organization for exponential growth.",
     icon: BarChart
   },
   {
     id: 2,
     title: "AI Adoption",
-    description: "I help SMEs move from manual operations to self-evolving systems, enabling processes (finance, inventory) to run autonomously via natural language.",
+    description: "I establish AI fluency among employees, enabling them to build custom automation tools using simplified, powerful coding methods. This creates a foundation for complex AI agent systems.",
     icon: Code
   },
   {
     id: 3,
     title: "AI Training",
-    description: "I teach non-coders and developers to master Agentic AI workflows, build autonomous systems, and create apps using AI-assisted coding and hackathons.",
+    description: "I teach non-coders and developers to master Agentic AI workflows, build autonomous systems, and create apps using AI-assisted coding.",
     icon: Layout
   },
   {
@@ -154,19 +155,19 @@ export const EXPERIENCE_DATA: ExperienceItem[] = [
 ];
 
 export const CAREER_PHASE_A: CareerItem[] = [
-  { id: 1, year: '1997-1999', company: 'Asahi Glass Co.', description: '' },
-  { id: 2, year: '1999-2000', company: 'Oasis Consulting', description: '' },
-  { id: 3, year: '2000-2002', company: 'Exxonmobil', description: '' },
-  { id: 4, year: '2002-2008', company: 'ISS Consulting', description: '' },
-  { id: 5, year: '2009-2010', company: 'Johnson & Johnson', description: '' }
+  { id: 1, year: '1997-1999', company: 'Asahi Glass Co.', description: 'SAP Analyst' },
+  { id: 2, year: '1999-2000', company: 'Oasis Consulting', description: 'SAP Implementations' },
+  { id: 3, year: '2000-2002', company: 'Exxonmobil', description: 'SAP Roll-outs' },
+  { id: 4, year: '2002-2008', company: 'ISS Consulting', description: 'SAP Implementations' },
+  { id: 5, year: '2009-2010', company: 'Johnson & Johnson', description: 'SAP Roll-outs' }
 ];
 
 export const CAREER_PHASE_B: CareerItem[] = [
-  { id: 1, year: '2010-2023', company: 'Inner City Offices', description: 'Coworking' },
-  { id: 2, year: '2011-Present', company: 'Voplus Consulting', description: 'CorpSec' },
+  { id: 1, year: '2010-2023', company: 'Inner City Offices', description: 'Coworking Space Operator' },
+  { id: 2, year: '2011-Present', company: 'Voplus Consulting', description: 'Corporate Secretary & Accounting' },
   { id: 3, year: '2011-2014', company: 'AdHocSpace', description: 'Event Space Marketplace' },
   { id: 4, year: '2014-2015', company: 'BookQuickly', description: 'Beauty Services Marketplace' },
   { id: 5, year: '2015-2020', company: 'PlusMargin', description: 'eCommerce Conversion Rate Optimisation' },
-  { id: 6, year: '2022-2025', company: 'Mezza Tech', description: '' },
-  { id: 7, year: '2025-Current', company: 'Nexius Labs', description: '' }
+  { id: 6, year: '2022-2025', company: 'Mezza Tech', description: 'Business Process Automation' },
+  { id: 7, year: '2025-Current', company: 'Nexius Labs', description: 'Agentic AI' }
 ];
