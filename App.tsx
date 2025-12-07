@@ -6,17 +6,15 @@ import Features from './components/Features';
 // import Resume from './components/Resume';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Aurora from './components/Aurora';
+import LiquidEther from './components/LiquidEther';
 
 const App: React.FC = () => {
   return (
     <div className="min-h-screen font-sans text-gray-700 bg-[#ecf0f3] relative">
-      {/* Background Aurora Layer */}
+      {/* Background Liquid Ether Layer */}
       <div className="fixed inset-0 z-0 pointer-events-none">
-        <Aurora 
-          colorStops={['#ff014f', '#ecf0f3', '#5227FF']}
-          speed={0.5} 
-          amplitude={1.2}
+        <LiquidEther 
+          colors={['#ff014f', '#5227FF', '#ecf0f3']} 
         />
       </div>
 
