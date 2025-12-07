@@ -31,10 +31,10 @@ const Navbar: React.FC = () => {
           href={BOOKING_URL} 
           target="_blank" 
           rel="noreferrer"
-          className="flex items-center gap-2 bg-gradient-to-r from-primary to-[#ff014f] text-white px-6 py-3 rounded-lg shadow-soft text-sm font-bold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300"
+          className="flex items-center gap-2 bg-gradient-to-r from-primary to-[#ff014f] text-white p-3 md:px-6 md:py-3 rounded-lg shadow-soft text-sm font-bold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300"
         >
           <CalendarClock size={18} />
-          Book My Time
+          <span className="hidden md:block">Book My Time</span>
         </a>
       </div>
     </header>
