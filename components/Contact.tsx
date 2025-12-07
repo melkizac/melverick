@@ -35,7 +35,7 @@ const Contact: React.FC = () => {
                 <div className="rounded-xl overflow-hidden mb-6 h-64">
                     <img src={PROFILE_IMAGE_URL} alt="Contact" className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500" />
                 </div>
-                <h3 className="text-3xl font-bold text-gray-800 mb-2 font-heading">Jone Lee</h3>
+                <h3 className="text-3xl font-bold text-gray-800 mb-2 font-heading">Melverick Ng</h3>
                 <p className="text-gray-500 mb-4">Chief Operating Officer</p>
                 <p className="text-gray-500 mb-6 leading-relaxed">
                     I am available for freelance work. Connect with me via and call in to my account.

@@ -10,11 +10,11 @@ const Footer: React.FC = () => {
              <img src={PROFILE_IMAGE_URL} alt="Logo" className="w-full h-full object-cover" />
           </div>
           <span className="text-2xl font-bold font-heading text-gray-800 uppercase tracking-wider">
-            Jone
+            Melverick
           </span>
         </div>
         <p className="text-gray-500">
-          © {new Date().getFullYear()}. All rights reserved by <a href="#" className="text-primary hover:underline">Jone Lee</a>
+          © {new Date().getFullYear()}. All rights reserved by <a href="#" className="text-primary hover:underline">Melverick Ng</a>
         </p>
       </div>
     </footer>

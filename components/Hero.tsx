@@ -11,13 +11,13 @@ const Hero: React.FC = () => {
           {/* Text Content */}
           <div className="flex-1 space-y-8 order-2 lg:order-1">
             <div className="space-y-4">
-              <span className="text-sm font-medium tracking-widest uppercase text-gray-500">Welcome to my world</span>
+              <span className="text-sm font-medium tracking-widest uppercase text-gray-500">Welcome</span>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-800 font-heading leading-tight">
-                Hi, I'm <span className="text-primary">Jone Lee</span> <br />
-                <span className="text-3xl md:text-5xl">a Professional Coder.</span>
+                Hi, I'm <span className="text-primary">Melverick Ng</span> <br />
+                <span className="text-3xl md:text-5xl">an AI Practitioner.</span>
               </h1>
               <p className="text-gray-500 leading-relaxed max-w-xl text-lg">
-                I use animation as a third dimension by which to simplify experiences and guiding thro each and every interaction. I'm not adding motion just to spruce things up, but doing it in ways that.
+                I am building an adaptive, Agentic AI systems for SMEs (finance, ERP, CRM), allowing software to think and act autonomously based on natural language intent. This leads to an AI-native business OS.
               </p>
             </div>
 
@@ -59,7 +59,7 @@ const Hero: React.FC = () => {
                  */}
                  <img 
                     src={PROFILE_IMAGE_URL} 
-                    alt="Jone Lee" 
+                    alt="Melverick Ng" 
                     className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500 ease-out"
                   />
                </div>

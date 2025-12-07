@@ -25,39 +25,27 @@ export const NAV_ITEMS: NavItem[] = [
 export const FEATURES: Feature[] = [
   {
     id: 1,
-    title: "Business Strategy",
-    description: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    title: "AI Strategy",
+    description: "I build an AI-native business OS by designing adaptive Agentic systems for finance, ERP, and CRM that learn, evolve, and execute on intent.",
     icon: BarChart
   },
   {
     id: 2,
-    title: "App Development",
-    description: "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
+    title: "AI Adoption",
+    description: "Ihelp SMEs move from manual operations to self-evolving systems, enabling processes (finance, inventory) to run autonomously via natural language.",
     icon: Code
   },
   {
     id: 3,
-    title: "App Design",
-    description: "I throw myself down among the tall grass by the stream as I lie close to the earth.",
+    title: "AI Training",
+    description: "I teach non-coders and developers to master Agentic AI workflows, build autonomous systems, and create apps using AI-assisted coding and hackathons.",
     icon: Layout
   },
   {
     id: 4,
-    title: "Mobile App",
-    description: "There are many variations of passages of Lorem Ipsum available, but the majority.",
+    title: "Agentic ERP/CRM",
+    description: "I create thinking, deciding, and acting software that executes complex operations (ERP, CRM) across tools based on a user's natural language outcome description.",
     icon: Smartphone
-  },
-  {
-    id: 5,
-    title: "CEO Marketing",
-    description: "Always free from repetition, injected humour, or non-characteristic words etc.",
-    icon: Wifi
-  },
-  {
-    id: 6,
-    title: "Personal Portfolio",
-    description: "It uses a dictionary of over 200 Latin words, combined with a handful of model sentence.",
-    icon: Layers
   },
 ];
 
