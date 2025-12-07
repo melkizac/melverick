@@ -9,7 +9,7 @@ const Contact: React.FC = () => {
     ];
 
   return (
-    <section id="contact" className="py-24 px-6 bg-[#ecf0f3] border-b border-gray-300">
+    <section id="contact" className="py-24 px-6 border-b border-gray-300">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <span className="text-primary text-xs font-bold uppercase tracking-widest">Contact</span>

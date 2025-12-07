@@ -3,7 +3,7 @@ import { PROFILE_IMAGE_URL } from '../constants';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="py-12 bg-[#ecf0f3] text-center">
+    <footer className="py-12 text-center">
       <div className="container mx-auto px-6">
         <div className="flex justify-center items-center gap-4 mb-6">
              <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-gray-300">

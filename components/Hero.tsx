@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
   ];
 
   return (
-    <section id="home" className="pt-32 pb-20 px-6 min-h-screen flex items-center bg-[#ecf0f3] border-b border-gray-300">
+    <section id="home" className="pt-32 pb-20 px-6 min-h-screen flex items-center border-b border-gray-300">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 items-center">
           
