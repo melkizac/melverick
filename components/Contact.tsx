@@ -1,6 +1,6 @@
 import React from 'react';
-import { Phone, Mail, UserPlus } from 'lucide-react';
-import { LINKEDIN_URL, FACEBOOK_URL } from '../constants';
+import { Phone, Mail, UserPlus, CalendarClock } from 'lucide-react';
+import { LINKEDIN_URL, FACEBOOK_URL, BOOKING_URL } from '../constants';
 
 const Contact: React.FC = () => {
     const socialLinks = [
@@ -60,13 +60,25 @@ const Contact: React.FC = () => {
                     </div>
                 </div>
 
-                <button 
-                    onClick={handleSaveContact}
-                    className="w-full mb-8 py-4 px-6 rounded-lg bg-gradient-to-r from-gray-100 to-gray-200 shadow-soft text-gray-700 font-bold uppercase tracking-wider text-sm hover:text-primary hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 border border-gray-200"
-                >
-                    <UserPlus size={18} />
-                    Save Contact
-                </button>
+                <div className="flex flex-col gap-4 mb-8">
+                    <button 
+                        onClick={handleSaveContact}
+                        className="w-full py-4 px-6 rounded-lg bg-gradient-to-r from-gray-100 to-gray-200 shadow-soft text-gray-700 font-bold uppercase tracking-wider text-sm hover:text-primary hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 border border-gray-200"
+                    >
+                        <UserPlus size={18} />
+                        Save Contact
+                    </button>
+
+                    <a 
+                        href={BOOKING_URL}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="w-full py-4 px-6 rounded-lg bg-gradient-to-r from-gray-100 to-gray-200 shadow-soft text-gray-700 font-bold uppercase tracking-wider text-sm hover:text-primary hover:-translate-y-1 transition-all duration-300 flex items-center justify-center gap-2 border border-gray-200"
+                    >
+                        <CalendarClock size={18} />
+                        Book My Time
+                    </a>
+                </div>
 
                 <div>
                     <span className="uppercase text-xs text-gray-500 tracking-widest font-bold mb-4 block">Connect With Me</span>

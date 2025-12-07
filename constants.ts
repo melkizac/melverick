@@ -14,6 +14,7 @@ export const PROFILE_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/stora
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/melverick/";
 export const FACEBOOK_URL = "https://www.facebook.com/melverick.ng.1";
+export const BOOKING_URL = "https://outlook.office.com/bookwithme/user/1a3b3c1b65044d24b6cddcc6b42c8ecb@nexiuslabs.com/meetingtype/rQlRqMpqtECRRRNfXW-T9A2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile";
 
 export const NAV_ITEMS: NavItem[] = [
   { id: 'home', label: 'Home', href: '#home' },

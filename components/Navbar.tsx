@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { PROFILE_IMAGE_URL } from '../constants';
+import { PROFILE_IMAGE_URL, BOOKING_URL } from '../constants';
+import { CalendarClock } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -24,6 +25,17 @@ const Navbar: React.FC = () => {
             Melverick
           </span>
         </div>
+
+        {/* CTA Button */}
+        <a 
+          href={BOOKING_URL} 
+          target="_blank" 
+          rel="noreferrer"
+          className="flex items-center gap-2 bg-gradient-to-r from-primary to-[#ff014f] text-white px-6 py-3 rounded-lg shadow-soft text-sm font-bold uppercase tracking-wider hover:-translate-y-1 transition-all duration-300"
+        >
+          <CalendarClock size={18} />
+          Book My Time
+        </a>
       </div>
     </header>
   );
