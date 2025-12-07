@@ -10,7 +10,7 @@ const CareerTimeline: React.FC = () => {
         <div className="text-center mb-16">
           <span className="text-primary text-xs font-bold uppercase tracking-widest">My Professional Evolution</span>
           <h2 className="text-3xl md:text-5xl font-bold text-gray-800 mt-4 font-heading leading-tight">
-            From SAP Logic to <br className="hidden md:block" /> AI-Native Business OS
+            From SAP Expert to <br className="hidden md:block" /> Agentic AI Business OS
           </h2>
         </div>
 
@@ -22,7 +22,7 @@ const CareerTimeline: React.FC = () => {
                   <Briefcase size={24} />
                </div>
                <h3 className="text-2xl font-bold text-gray-800 font-heading">
-                 Phase I: SAP Operator & Logic Master
+                 Phase I: SAP Expert & Business Process Master
                  <span className="block text-sm font-normal text-gray-500 mt-1">(1997–2010)</span>
                </h3>
             </div>
@@ -41,7 +41,7 @@ const CareerTimeline: React.FC = () => {
                   <Rocket size={24} />
                </div>
                <h3 className="text-2xl font-bold text-gray-800 font-heading">
-                 Phase II: Entrepreneur & System Builder
+                 Phase II: Entrepreneur & AI Practitioner
                  <span className="block text-sm font-normal text-gray-500 mt-1">(2010–Current)</span>
                </h3>
             </div>
