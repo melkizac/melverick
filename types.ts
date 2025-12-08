@@ -35,6 +35,7 @@ export interface CareerItem {
   year: string;
   company: string;
   description?: string;
+  url?: string;
 }
 
 export enum ResumeTab {

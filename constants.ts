@@ -169,7 +169,7 @@ export const CAREER_PHASE_B: CareerItem[] = [
   { id: 4, year: '2014-2015', company: 'BookQuickly', description: 'Beauty Services Marketplace' },
   { id: 5, year: '2015-2020', company: 'PlusMargin', description: 'eCommerce Conversion Rate Optimisation' },
   { id: 6, year: '2022-2025', company: 'Mezza Tech', description: 'Business Process Automation' },
-  { id: 7, year: '2025-Current', company: 'Nexius Labs', description: 'Agentic AI' }
+  { id: 7, year: '2025-Current', company: 'Nexius Labs', description: 'Agentic AI', url: 'https://nexiuslabs.com' }
 ];
 
 export const PROJECT_LOGOS = [
@@ -181,7 +181,7 @@ export const PROJECT_LOGOS = [
   { name: 'RGE', url: 'https://logo.clearbit.com/rgei.com' },
   { name: 'Venture', url: 'https://logo.clearbit.com/venture.com.sg' },
   { name: 'Teco', url: 'https://logo.clearbit.com/teco.com.sg' },
-  { name: 'NIE', url: 'https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/nie_logo.png' },
+  { name: 'NIE', url: 'https://www.scholarshipguide.com.sg/sites/default/files/institutions/logo/nie_logo.png' },
   { name: 'NTU', url: 'https://logo.clearbit.com/ntu.edu.sg' },
   { name: 'SIM', url: 'https://logo.clearbit.com/sim.edu.sg' },
   { name: 'Temasek Polytechnic', url: 'https://logo.clearbit.com/tp.edu.sg' },

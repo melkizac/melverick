@@ -67,7 +67,18 @@ const TimelineCard: React.FC<{ item: CareerItem }> = ({ item }) => {
       <div className="p-6 rounded-xl bg-gradient-to-br from-[#e2e8ec] to-[#ffffff] shadow-soft hover:bg-white hover:-translate-y-1 transition-all duration-300">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-2 mb-2">
            <h4 className="text-xl font-bold text-gray-800 group-hover:text-primary transition-colors font-heading">
-             {item.company}
+             {item.url ? (
+               <a 
+                 href={item.url} 
+                 target="_blank" 
+                 rel="noopener noreferrer"
+                 className="hover:underline decoration-primary underline-offset-4 decoration-2"
+               >
+                 {item.company}
+               </a>
+             ) : (
+               item.company
+             )}
            </h4>
            <div className="flex items-center gap-2 text-sm text-gray-500 bg-gray-100 px-3 py-1 rounded-full w-fit shadow-inner-soft">
              <Calendar size={14} />
