@@ -182,7 +182,7 @@ export const PROJECT_LOGOS = [
   { name: 'RGE', url: 'https://logo.clearbit.com/rgei.com' },
   { name: 'Venture', url: 'https://logo.clearbit.com/venture.com.sg' },
   { name: 'Teco', url: 'https://logo.clearbit.com/teco.com.sg' },
-  { name: 'NIE', url: 'https://www.scholarshipguide.com.sg/sites/default/files/institutions/logo/nie_logo.png' },
+  { name: 'NIE', url: 'https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/nie_logo.png' },
   { name: 'NTU', url: 'https://logo.clearbit.com/ntu.edu.sg' },
   { name: 'SIM', url: 'https://logo.clearbit.com/sim.edu.sg' },
   { name: 'Temasek Polytechnic', url: 'https://logo.clearbit.com/tp.edu.sg' },
