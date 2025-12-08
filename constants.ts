@@ -230,7 +230,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 10,
-    quote: "Melverick is a good colleague and friend. There is a lot of things that I learned from him during days that we are in projects together. He is well dedicated to his work and handles a team extremely well. People skill, communication skill, management skill ain't a hurdle to him.",
+    quote: "I have learnt a lot of things from Melverick during days that we are in projects together. He is well dedicated to his work and handles a team extremely well. People skill, communication skill, management skill ain't a hurdle to him.",
     name: "Jave Loo",
     role: "SAP Professional",
     company: "IBM",
