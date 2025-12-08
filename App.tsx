@@ -15,7 +15,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen font-sans text-gray-700 bg-[#ecf0f3] relative">
       {/* Background Liquid Ether Layer */}
-      <div className="fixed inset-0 z-0 pointer-events-none">
+      <div className="fixed inset-0 z-[-1] pointer-events-none">
         <LiquidEther 
           colors={['#ff014f', '#5227FF', '#ecf0f3']} 
         />

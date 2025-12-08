@@ -27,11 +27,16 @@
             },
             animation: {
               'scroll': 'scroll 40s linear infinite',
+              'fade-in': 'fadeIn 1s ease-in-out',
             },
             keyframes: {
               scroll: {
                 '0%': { transform: 'translateX(0)' },
                 '100%': { transform: 'translateX(-50%)' },
+              },
+              fadeIn: {
+                '0%': { opacity: '0' },
+                '100%': { opacity: '1' },
               }
             }
           }
@@ -47,12 +52,14 @@
   <script type="importmap">
 {
   "imports": {
-    "react/": "https://aistudiocdn.com/react@^19.2.1/",
-    "react": "https://aistudiocdn.com/react@^19.2.1",
-    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
-    "ogl": "https://aistudiocdn.com/ogl@^1.0.11",
-    "three": "https://aistudiocdn.com/three@0.160.0/build/three.module.js"
+    "react": "https://esm.sh/react@18.2.0",
+    "react/": "https://esm.sh/react@18.2.0/",
+    "react-dom": "https://esm.sh/react-dom@18.2.0",
+    "react-dom/": "https://esm.sh/react-dom@18.2.0/",
+    "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+    "lucide-react": "https://esm.sh/lucide-react@0.294.0",
+    "ogl": "https://esm.sh/ogl@1.0.11",
+    "three": "https://esm.sh/three@0.160.0"
   }
 }
 </script>
