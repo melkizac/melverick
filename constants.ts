@@ -12,6 +12,7 @@ import { NavItem, Feature, PortfolioItem, ExperienceItem, CareerItem, Testimonia
 // or a hosted URL of your choice to use your personal photo.
 export const PROFILE_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/melverick%20studio.jpg?q=80&w=1000&auto=format&fit=crop"; 
 export const JOURNEY_IMAGE_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/Melverick%20Journey.jpg";
+export const NEXIUS_LABS_LOGO_URL = "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/NexiusLabs_Logo-removebg-preview-removebg-preview.png";
 
 export const LINKEDIN_URL = "https://www.linkedin.com/in/melverick/";
 export const FACEBOOK_URL = "https://www.facebook.com/melverick.ng.1";
@@ -190,7 +191,7 @@ export const PROJECT_LOGOS = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    quote: "We are grateful for the highly insightful sessions and the team's generosity in sharing invaluable materials. The practical advice, clear demonstrations, and comprehensive resources provided by Melverick's team will be instrumental in our effective adoption of AI tools. We look forward to future collaborations.",
+    quote: `We are grateful for the highly insightful sessions and the team's generosity in sharing invaluable materials. The practical advice, clear demonstrations, and comprehensive resources provided by Melverick's team will be instrumental in our effective adoption of AI tools. We look forward to future collaborations.`,
     name: "Jacky Ng",
     role: "Chief Librarian",
     company: "NIE",
@@ -198,7 +199,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 4,
-    quote: "Thank you Melverick for the clear structured guidance and explanations! I have been struggling with my startup for months. I tried many things but somehow I could not get it right. You saw how my business could go on the very first session. I appreciate the step by step guidance over the sessions we had. If you would like to see some light for your business, Melverick is the one to go to! ",
+    quote: `Thank you Melverick for the clear structured guidance and explanations! I have been struggling with my startup for months. I tried many things but somehow I could not get it right. You saw how my business could go on the very first session. I appreciate the step by step guidance over the sessions we had. If you would like to see some light for your business, Melverick is the one to go to! `,
     name: "Hui Fang, Lee",
     role: "Founder",
     company: "Ouch Pte Ltd",
@@ -206,7 +207,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 5,
-    quote: "I impressed at his wealth of knowledge and experience, but even more so with his humility and thoughtfulness. Over the past few years, Melverick has been an invaluable source of advice, counsel and mentorship, and his strong business acumen is evident through his various business ventures, either as an entrepreneur or an angel investor. Beyond his role as a mentor and investor, Melverick genuinely cares for the people who he works with, and places people above all else.",
+    quote: `I impressed at his wealth of knowledge and experience, but even more so with his humility and thoughtfulness. Over the past few years, Melverick has been an invaluable source of advice, counsel and mentorship, and his strong business acumen is evident through his various business ventures, either as an entrepreneur or an angel investor. Beyond his role as a mentor and investor, Melverick genuinely cares for the people who he works with, and places people above all else.`,
     name: "Qin En, Looi",
     role: "Managing Partner",
     company: "Onigiri Capital",
@@ -214,7 +215,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 8,
-    quote: "Melverick was an excellent Project Manager and a Mentor. He has demonstrated an analytical approach to resolving technical hurdles and his capabilities in managing the project team, cleverly crafting a well-balanced relationship between the client and the team.",
+    quote: `Melverick was an excellent Project Manager and a Mentor. He has demonstrated an analytical approach to resolving technical hurdles and his capabilities in managing the project team, cleverly crafting a well-balanced relationship between the client and the team.`,
     name: "Hwee Ling, Tay",
     role: "SAP Professional",
     company: "Roche",
@@ -222,7 +223,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 9,
-    quote: "Being our Consulting Manager, he is someone who is fair, unbiased and consistently pleasant to work with.Apart from being a joy to work with, his experience, and Project Management skills contributed to the successful delivery of one of the toughest SAP projects on time.",
+    quote: `Being our Consulting Manager, he is someone who is fair, unbiased and consistently pleasant to work with.Apart from being a joy to work with, his experience, and Project Management skills contributed to the successful delivery of one of the toughest SAP projects on time.`,
     name: "Roy Lee",
     role: "Lead IT Architect",
     company: "NCS",
@@ -230,7 +231,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 10,
-    quote: "I have learnt a lot of things from Melverick during days that we are in projects together. He is well dedicated to his work and handles a team extremely well. People skill, communication skill, management skill ain't a hurdle to him.",
+    quote: `I have learnt a lot of things from Melverick during days that we are in projects together. He is well dedicated to his work and handles a team extremely well. People skill, communication skill, management skill ain't a hurdle to him.`,
     name: "Jave Loo",
     role: "SAP Professional",
     company: "IBM",
