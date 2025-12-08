@@ -171,3 +171,18 @@ export const CAREER_PHASE_B: CareerItem[] = [
   { id: 6, year: '2022-2025', company: 'Mezza Tech', description: 'Business Process Automation' },
   { id: 7, year: '2025-Current', company: 'Nexius Labs', description: 'Agentic AI' }
 ];
+
+export const PROJECT_LOGOS = [
+  { name: 'ExxonMobil', url: 'https://logo.clearbit.com/exxonmobil.com' },
+  { name: 'Johnson & Johnson', url: 'https://logo.clearbit.com/jnj.com' },
+  { name: 'HP', url: 'https://logo.clearbit.com/hp.com' },
+  { name: 'Sembcorp', url: 'https://logo.clearbit.com/sembcorp.com' },
+  { name: 'Tyco', url: 'https://logo.clearbit.com/tyco.com' },
+  { name: 'RGE', url: 'https://logo.clearbit.com/rgei.com' },
+  { name: 'Venture', url: 'https://logo.clearbit.com/venture.com.sg' },
+  { name: 'Teco', url: 'https://logo.clearbit.com/teco.com.sg' },
+  { name: 'NIE', url: 'https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/nie_logo.png' },
+  { name: 'NTU', url: 'https://logo.clearbit.com/ntu.edu.sg' },
+  { name: 'SIM', url: 'https://logo.clearbit.com/sim.edu.sg' },
+  { name: 'Temasek Polytechnic', url: 'https://logo.clearbit.com/tp.edu.sg' },
+];

@@ -8,6 +8,7 @@ import CareerTimeline from './components/CareerTimeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LiquidEther from './components/LiquidEther';
+import ProjectLogos from './components/ProjectLogos';
 
 const App: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const App: React.FC = () => {
         <main>
           <Hero />
           <Features />
+          <ProjectLogos />
           {/* <Portfolio /> */}
           {/* <Resume /> */}
           <CareerTimeline />
