@@ -192,7 +192,7 @@ export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
     quote: `We are grateful for the highly insightful sessions and the team's generosity in sharing invaluable materials. The practical advice, clear demonstrations, and comprehensive resources provided by Melverick's team will be instrumental in our effective adoption of AI tools. We look forward to future collaborations.`,
-    name: "Jacky Ng",
+    name: "Jacky Wong",
     role: "Chief Librarian",
     company: "NIE",
     avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/jacky_wong.jpeg"
