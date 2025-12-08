@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
             <div className="space-y-4">
               <span className="text-sm font-medium tracking-widest uppercase text-gray-500">Welcome</span>
               <h1 className="text-4xl md:text-6xl font-bold text-gray-800 font-heading leading-tight">
-                Hi, I'm <span className="text-primary">Melverick Ng</span> <br />
+                Hi, I'm <span className="text-primary">Melverick</span> <br />
                 <span className="text-3xl md:text-5xl">an AI Practitioner.</span>
               </h1>
               <p className="text-gray-500 leading-relaxed max-w-xl text-lg">
