@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import LiquidEther from './components/LiquidEther';
 import ProjectLogos from './components/ProjectLogos';
+import Testimonials from './components/Testimonials';
 
 const App: React.FC = () => {
   return (
@@ -30,6 +31,7 @@ const App: React.FC = () => {
           {/* <Portfolio /> */}
           {/* <Resume /> */}
           <CareerTimeline />
+          <Testimonials />
           <Contact />
         </main>
         <Footer />

@@ -6,7 +6,7 @@ import {
   Wifi, 
   Layers 
 } from 'lucide-react';
-import { NavItem, Feature, PortfolioItem, ExperienceItem, CareerItem } from './types';
+import { NavItem, Feature, PortfolioItem, ExperienceItem, CareerItem, Testimonial } from './types';
 
 // NOTE: Please replace this URL with the actual path to your uploaded photo (e.g., ./assets/my-photo.jpg) 
 // or a hosted URL of your choice to use your personal photo.
@@ -50,7 +50,7 @@ export const FEATURES: Feature[] = [
   {
     id: 4,
     title: "Agentic ERP/CRM",
-    description: "I create thinking, deciding, and acting software that executes complex operations (ERP, CRM) across tools based on a user's natural language outcome description.",
+    description: "I create thinking, deciding, and acting software that executes complex operations (ERP, CRM, Finance) across tools based on a user's natural language outcome description.",
     icon: Smartphone
   },
 ];
@@ -181,8 +181,59 @@ export const PROJECT_LOGOS = [
   { name: 'RGE', url: 'https://logo.clearbit.com/rgei.com' },
   { name: 'Venture', url: 'https://logo.clearbit.com/venture.com.sg' },
   { name: 'Teco', url: 'https://logo.clearbit.com/teco.com.sg' },
-  { name: 'NIE', url: 'https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/nie_logo.png' },
+  { name: 'NIE', url: 'https://www.scholarshipguide.com.sg/sites/default/files/institutions/logo/nie_logo.png' },
   { name: 'NTU', url: 'https://logo.clearbit.com/ntu.edu.sg' },
   { name: 'SIM', url: 'https://logo.clearbit.com/sim.edu.sg' },
   { name: 'Temasek Polytechnic', url: 'https://logo.clearbit.com/tp.edu.sg' },
+];
+
+export const TESTIMONIALS: Testimonial[] = [
+  {
+    id: 1,
+    quote: "We are grateful for the highly insightful sessions and the team's generosity in sharing invaluable materials. The practical advice, clear demonstrations, and comprehensive resources provided by Melverick's team will be instrumental in our effective adoption of AI tools. We look forward to future collaborations.",
+    name: "Jacky Ng",
+    role: "Chief Librarian",
+    company: "NIE",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/jacky_wong.jpeg"
+  },
+  {
+    id: 4,
+    quote: "Thank you Melverick for the clear structured guidance and explanations! I have been struggling with my startup for months. I tried many things but somehow I could not get it right. You saw how my business could go on the very first session. I appreciate the step by step guidance over the sessions we had. If you would like to see some light for your business, Melverick is the one to go to! ",
+    name: "Hui Fang, Lee",
+    role: "Founder",
+    company: "Ouch Pte Ltd",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/huifang.jpeg"
+  },
+  {
+    id: 5,
+    quote: "I impressed at his wealth of knowledge and experience, but even more so with his humility and thoughtfulness. Over the past few years, Melverick has been an invaluable source of advice, counsel and mentorship, and his strong business acumen is evident through his various business ventures, either as an entrepreneur or an angel investor. Beyond his role as a mentor and investor, Melverick genuinely cares for the people who he works with, and places people above all else.",
+    name: "Qin En, Looi",
+    role: "Managing Partner",
+    company: "Onigiri Capital",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/Qinen.jpeg"
+  },
+  {
+    id: 8,
+    quote: "Melverick was an excellent Project Manager and a Mentor. He has demonstrated an analytical approach to resolving technical hurdles and his capabilities in managing the project team, cleverly crafting a well-balanced relationship between the client and the team.",
+    name: "Hwee Ling, Tay",
+    role: "SAP Professional",
+    company: "Roche",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/hwee_ling.jpeg"
+  },
+  {
+    id: 9,
+    quote: "Being our Consulting Manager, he is someone who is fair, unbiased and consistently pleasant to work with.Apart from being a joy to work with, his experience, and Project Management skills contributed to the successful delivery of one of the toughest SAP projects on time.",
+    name: "Roy Lee",
+    role: "Lead IT Architect",
+    company: "NCS",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/roy_lee.jpeg"
+  },
+  {
+    id: 10,
+    quote: "Melverick is a good colleague and friend. There is a lot of things that I learned from him during days that we are in projects together. He is well dedicated to his work and handles a team extremely well. People skill, communication skill, management skill ain't a hurdle to him.",
+    name: "Jave Loo",
+    role: "SAP Professional",
+    company: "IBM",
+    avatar: "https://xiesmjebrayrjewxugsn.supabase.co/storage/v1/object/public/melverick/jave_loo.jpeg"
+  }
 ];

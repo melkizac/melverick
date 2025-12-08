@@ -38,6 +38,15 @@ export interface CareerItem {
   url?: string;
 }
 
+export interface Testimonial {
+  id: number;
+  quote: string;
+  name: string;
+  role: string;
+  company: string;
+  avatar: string;
+}
+
 export enum ResumeTab {
   EDUCATION = 'Education',
   SKILLS = 'Professional Skills',
